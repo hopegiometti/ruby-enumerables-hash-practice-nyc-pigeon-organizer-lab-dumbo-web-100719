@@ -17,7 +17,7 @@
 #      end
 #    end
 #  end
-#  pigeon_list  
+#  pigeon_list
 #end
 
 
@@ -29,13 +29,13 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[name] == nil
           pigeon_list[name] {}
         end
-        
-        if pigeon_list[name][trait_type] == nil 
+
+        if pigeon_list[name][trait_type] == nil
           pigeon_list[name][trait_type] = []
         end
-        
+
         if pigeon_list[name][trait_type].include?(trait_values)
-          pigeon_list[name][trait_type] << trait_values.to_s  
+          pigeon_list[name][trait_type] << trait_values.to_s
         end
       end
     end
@@ -56,7 +56,5 @@ end
 #      end
 #    end
 #  end
-#  pigeon_list  
+#  pigeon_list
 #end
-
-
